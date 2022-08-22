@@ -48,9 +48,7 @@ Results show that most of the studied compounds have relatively strong negative 
 
 # Modeling
 
-
-
-Results from correlation analysis were then used to inform which land cover types should be used as explanatory variables in the model.
+Ordinary Least Square Modeling was used to create predictive nutrient concentration model. Results from correlation analysis were used to inform which land cover types should be used as explanatory variables in the model.
 
 
 
