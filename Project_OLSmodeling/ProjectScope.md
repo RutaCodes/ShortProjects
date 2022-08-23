@@ -42,13 +42,18 @@ These correlations analysis results allow to easily identify similar land use wa
 
 Finally, correlation between land use and different nutrients was analyzed:
 
-![Screen Shot 2022-08-22 at 3 58 41 PM](https://user-images.githubusercontent.com/111301407/186007973-62507097-7742-4eaf-aa27-9de4661b8da0.png)
+![Screen Shot 2022-08-23 at 3 50 42 PM](https://user-images.githubusercontent.com/111301407/186253122-1a62973a-a466-4261-8670-aade09aea1e8.png)
 
 Results show that most of the studied compounds have relatively strong negative correlation with forested landcover (no agricultural or urban activity). On the other hand, ammonia, chloride, nitrate, and sulphate are strongly positively correlated with urban (i.e. developed) and agricultural (i.e. cultivated crops, hay/pasture, etc.) land covers. This signifies that these four compounds are likely entering the surface water from artificial sources, hence we see an increase in their concentrations when large portion of the watershed is affected by human activity. 
 
 # Modeling
 
-Ordinary Least Square Modeling was used to create predictive nutrient concentration model. Results from correlation analysis were used to inform which land cover types should be used as explanatory variables in the model.
+Ordinary Least Square Modeling was used to create predictive nutrient concentration model. Results from correlation analysis were used to inform which land cover types should be used as explanatory variables in the model. Model was developed for each nutrient separately, as land cover influence on observed concentrations will vary from compound to compound. In total, 4 predictive OLS models were created: nitrate, chloride, ammonia, and sulphate. 
+
+NITRATE MODEL
+
+
+
 
 
 
