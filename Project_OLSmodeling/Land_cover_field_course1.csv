@@ -1,0 +1,10 @@
+Land Cover Class,Blackwood,Burton,Lake Tahoe,Truckee upstream,Truckee downstream,Truckee Canal,Truckee before Pyramid,Gull&June,Pyramid,Walker,Big Soda
+Open Water,0.09,0.01,35.59,1.72,1.59,0.5,1.53,11.68,7.41,0.31,1.17
+Developed,1.55,1.69,5.98,14.03,26.28,17.91,24.36,5.7,6.38,0.9,1.61
+Barren Land,0.27,0,0.89,0,0.17,0.74,0.16,0.01,0.27,3.18,20.93
+Forest (Deciduous/Evergreen/Mixed),74.03,93.1,41.21,58.98,24.95,0.02,22.82,44.07,18.27,17.25,1.57
+Shrub/Scrub,22.6,3.15,15.04,24.86,41.88,70.41,45.43,37.69,50.25,69.88,58.79
+Herbaceous,0.08,0.1,0.1,0.26,3.68,1.08,4.16,0.12,16.25,3.14,7.76
+Hay/Pasture,0,0,0,0,0.63,0.84,0.58,0,0.09,0.6,0.53
+Cultivated Crops,0,0,0,0,0.48,6.4,0.52,0,0.13,2.57,3.98
+Wetlands,1.37,1.96,1.18,0.15,0.36,2.1,0.44,0.72,0.95,2.15,3.66
