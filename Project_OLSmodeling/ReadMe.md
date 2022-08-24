@@ -1,6 +1,6 @@
 # Project OLS Modeling
 
-This project was designed, coordinated, executed, and interpreted by me, while consecutively training two graduate students about scientific concepts, field methods, 
+This project was designed, coordinated, executed, and interpreted by me, while simultaneously training two graduate students about scientific concepts, field methods, 
 experimental design, and data driven modeling.
 
 The goal of this project was to analyze how water quality differs across sites in California and Neveda. 
