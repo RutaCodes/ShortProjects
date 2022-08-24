@@ -164,4 +164,4 @@ summary(Sulphate_model2)$r.squared
 plot(Analyte_land_t[1:8,8],Sulphate_model2$fitted.values,pch=20,ylab=paste("Predicted Conc. (mg/L)"),xlab=paste("Sulfate (mg/L)"))
 abline(glm(Sulphate_model2$fitted.values~Analyte_land_t[1:8,8]), col="blue",lwd=1,lty=2)
 
-
+#### end ####
