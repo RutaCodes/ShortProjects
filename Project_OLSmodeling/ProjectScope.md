@@ -1,6 +1,6 @@
 # Research Interest
 
-Increased nutrient concentrations in surface water are often associated with decreased water quality. In this project relationship between land cover and observed nutrient (i.e. phosphorus, potassium, ammonia, fluoride, chloride, nitrate, sulphate) concentrations were studied. 
+Increased nutrient concentrations in surface water are often associated with decreased water quality. The goal of this project was to analyze how water quality differs across sites in California and Neveda and how land cover impacts observed nutrient concentrations. Relationship between land cover and observed nutrient (i.e. phosphorus, potassium, ammonia, fluoride, chloride, nitrate, sulphate) concentrations was studied and multiple linear regression model was developed to predict those concentrations.
 
 # Sources of Nutrients
 
@@ -50,7 +50,7 @@ Results show that most of the studied compounds have relatively strong negative 
 
 # Modeling
 
-Ordinary Least Square Modeling was used to create predictive nutrient concentration model. Results from correlation analysis were used to inform which land cover types should be used as explanatory variables in the model. Model was developed for each nutrient separately, as land cover influence on observed concentrations will vary from compound to compound. In total, 4 predictive OLS models were created: nitrate, chloride, ammonia, and sulphate. 
+Ordinary Least Square Modeling was used to develop predictive nutrient concentration model. Results from correlation analysis were used to inform which land cover types should be used as explanatory variables in the model. Model was developed for each nutrient separately, as land cover influence on observed concentrations will vary from compound to compound. In total, 4 predictive OLS models were created: nitrate, chloride, ammonia, and sulphate. 
 
 NITRATE MODEL
 
@@ -63,21 +63,11 @@ Although relationship trends are clear, it is not enough to use a single land co
 
 ![Screen Shot 2022-08-25 at 12 03 42 PM](https://user-images.githubusercontent.com/111301407/186714578-5e5ae523-e86b-4635-916a-356538e96dbe.png)
 
-This multivariate linear regression model uses 6 land cover types as predictor variables producing R2 = 0.96.
+This multiple linear regression model uses 6 land cover types as predictor variables producing R2 = 0.96.
 
 Similarly, ammonia model produced high accuracy of R2 = 0.95, while sulphate model had R2 = 0.99. 
 
 # Code
 
 Code for correlation analysis and modeling that was mentioned here can be found in OLS_modeling_fieldC.R.
-
-
-Include most of the presentation:
-1) research questions
-2) background on nutrients and their sources
-3) sampling strategy
-4) concentrations
-5) explain what I modeled, what I used as explanatory variables and what were the results, what was the accuracy
-
-
 
