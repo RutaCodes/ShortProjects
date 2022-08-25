@@ -44,7 +44,7 @@ rcor_vals_spear_analytes=rcorr(as.matrix(Analyte_conc_t),type = c("spearman"))
 corrplot(rcor_vals_spear_analytes$r,tl.col="black")
 
 #Analyzing study site land cover correlations
-Land_cover<-read.csv(file="Land_cover_field_course1.csv",sep=",",row.names=1,header=T) 
+Land_cover<-read.csv(file="Land_cover_data.csv",sep=",",row.names=1,header=T) 
 land_vals_spear=rcorr(as.matrix(Land_cover),type = c("spearman"))
 corrplot(land_vals_spear$r,tl.col="black")
 
