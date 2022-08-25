@@ -28,6 +28,8 @@ Ion Chromatography (IC) was used to process samples and measure nutrient concent
 
 ![Screen Shot 2022-08-22 at 3 24 14 PM](https://user-images.githubusercontent.com/111301407/186002836-fdf9b45c-4dd6-4357-ac72-1db5ad5bf611.png)
 
+Results highlights how urbanization impacts water quality: chloride and sulphate concetrations increased 20 times after Truckee river passed through Reno!
+
 # Correlations 
 
 First, correlation analysis was performed to determine similarities among nutrient occurance. Spearman correlation coefficeint was calculated to quantify co-occurance patterns among compounds:
@@ -52,11 +54,22 @@ Ordinary Least Square Modeling was used to create predictive nutrient concentrat
 
 NITRATE MODEL
 
+First, relationships between recorded nitrate concentrations and individual land covers were explored:
 
+![Screen Shot 2022-08-25 at 11 51 32 AM](https://user-images.githubusercontent.com/111301407/186712023-1e5c9ebd-6fd8-4469-bbcd-cd4e32250754.png)
+![Screen Shot 2022-08-25 at 11 51 49 AM](https://user-images.githubusercontent.com/111301407/186712051-22887c82-d412-4e77-9204-5a3d1ab56074.png)
 
+Although relationship trends are clear, it is not enough to use a single land cover type as predictor variables as that linear regression model would not be very accurate. Instead, using multiple land cover types as predictor variables in the model better represents overall land cover impact on observed nitrate concentrations:
 
+![Screen Shot 2022-08-25 at 12 03 42 PM](https://user-images.githubusercontent.com/111301407/186714578-5e5ae523-e86b-4635-916a-356538e96dbe.png)
 
+This multivariate linear regression model uses 6 land cover types as predictor variables producing R2 = 0.96.
 
+Similarly, ammonia model produced high accuracy of R2 = 0.95, while sulphate model had R2 = 0.99. 
+
+# Code
+
+Code for correlation analysis and modeling that was mentioned here can be found in OLS_modeling_fieldC.R.
 
 
 Include most of the presentation:
@@ -66,5 +79,5 @@ Include most of the presentation:
 4) concentrations
 5) explain what I modeled, what I used as explanatory variables and what were the results, what was the accuracy
 
-Include modeling code with good comments
+
 
