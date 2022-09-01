@@ -10,4 +10,7 @@ You can find the code to do this comparison in Comparing_BflowSep.R.
 
 # Conclusion
 
+Read more about EcoHydRology package here:
+https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.463.7823&rep=rep1&type=pdf
+
 References:
