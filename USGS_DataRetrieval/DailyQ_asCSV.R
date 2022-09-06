@@ -1,6 +1,8 @@
+#Ruta Basijokaite
 #------------------------------------------
 #This code utalizes USGS dataRetrieval package to automate data download for multiple sites and attributes
-#E.g. this code can be used to retrieve USGS streamflow values for a specified site
+#This specific code retrieves daily streamflow values for a specified site list
+#Then downloaded daily streamflow record is saved as csv file (each site generates new csv file)
 
 #dataRetrieval package has multiple functions that can be used to download data
 #Read more about them here:
@@ -54,6 +56,6 @@ for (i in seq(1,nr_sites)){
     data_Q <- readNWISdv(site= Site_string[i], parameterCd , startDate= start_of_period, endDate= end_of_period)
     
     #Saving downloaded data as csv file for further analysis
-    write.table(data_Q,file=paste( "USGS",Site_string[i],"_Q.csv",sep=""),sep=",",row.names=F,col.names=F,append=T)
+    write.table(data_Q,file=paste0("USGS",Site_string[i],"_Q.csv",sep=""),sep=",",row.names=F,col.names=F,append=T)
 }
 
