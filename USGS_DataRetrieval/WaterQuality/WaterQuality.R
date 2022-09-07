@@ -12,7 +12,7 @@ library(dataRetrieval)
 
 #Loading data
 #Reading in csv file with USGS sites
-Site_info_all <- read.csv(file="Site_list_final_0907.csv",sep=",",header=T)
+Site_info_all <- read.csv(file="Site_list.csv",sep=",",header=T)
 
 #Reading in USGS site numbers 
 Site_code <- Site_info_all[,1]
