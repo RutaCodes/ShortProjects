@@ -49,8 +49,9 @@ for (i in seq(1,nr_sites)){
     #when csv file is created, 0s at the beginning of the code are often removed
     #If site number is less than 8 characters, add 0
     if (nchar(site_numb) < 8){
-      Site_string[i] = paste0("0", site_numb)
-      }
+        site_numb = paste0("0", site_numb)
+        Site_string[i] = site_numb
+    }
     
     #downloading daily streamflow data using readNWISdv function for specified period
     data_Q <- readNWISdv(site= Site_string[i], parameterCd , startDate= start_of_period, endDate= end_of_period)
