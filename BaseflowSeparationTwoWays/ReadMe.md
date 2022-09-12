@@ -1,3 +1,5 @@
+MAIN CODE -
+
 # Baseflow Separation Function
 
 Baseflow separation is a method that is used to analyze streamflow and approximate runoff and baseflow components. EcoHydRology package that was created by Fuka et al., 2019 has BaseflowSeparation.R function that allows to approximate runoff and baseflow components of streamflow. However, this function does not account for missing values in the dataset and does not have the capability to deal with NA values. Two methods were tested:
