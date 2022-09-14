@@ -17,7 +17,7 @@ You can find the code to do this comparison in Comparing_BflowSep.R.
 ![Screen Shot 2022-09-14 at 3 46 52 PM](https://user-images.githubusercontent.com/111301407/190248426-9289a49c-b706-4ca4-a22c-5142a6396c30.png)
 
 # Conclusion
-Both methods seem to be useful. Ignoring NA values (method) is more accurate when very few values are missing in the dataset. However, when dataset is missing a large chunk of data, doing baseflow saparation by groups of consecutive values seem to produce more realistic results. 
+Although results of varying solutions to deal with NA problem in datasets seem to differ only around the period of missing data, both methods are useful. Ignoring NA values (method) is more accurate when very few values are missing in the dataset. However, when dataset is missing a large chunk of data, doing baseflow saparation by groups of consecutive values seem to produce more realistic results. 
 
 Read more about EcoHydRology package here:
 https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.463.7823&rep=rep1&type=pdf;
