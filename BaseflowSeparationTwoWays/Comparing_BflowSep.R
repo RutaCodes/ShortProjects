@@ -123,3 +123,31 @@ matplot(Comp_BaseF_65[Period_65_minus_t,],type=c("b"),pch=1,col=1:3, ylab='Strea
 axis(1, at = seq(1,length(date_65_minus_t), by=10), labels = date_65_minus_t[seq(1,length(date_65_minus_t), by=10)],cex.axis=0.8,las = 2)
 legend("topright", legend = c("Streamflow","Method1","Methods2"), pch=1, col=1:3, bty='n')
 title(main = paste(colnames(Q_data_f_mm)[WS],'\n Missing values = 731'))
+
+#Plotting shorter time periods so that differences in methods would be more visible
+WS = 31
+count_occur = data.frame(rle(Q_cons_gr[,WS])$values, rle(Q_cons_gr[,WS])$lengths)
+test_31 = data.frame(Q_cons_gr[,WS], with(rle(Q_cons_gr[,WS]), rep(lengths, lengths)))
+Comp_BaseF_31 = data.frame(Q_data_f_mm[,WS],Baseflow_v1[,WS],Baseflow_v2[,WS])
+date_31 = as.POSIXlt(as.Date(Q_data_f_mm[Period_31,1], "%Y-%m-%d",tz = "UTC"))
+#Removing a chunk of missing values to plot non NA values closer together
+Period_31_v2 = c(seq((max(which(test_31[,1] == 2))-15),(max(which(test_31[,1] == 2))+5)),
+                 seq((min(which(test_31[,1] == 3))-5),(min(which(test_31[,1] == 3))+15)))
+matplot(Comp_BaseF_31[Period_31_v2,],type=c("b"),pch=1,col=1:3, ylab='Streamflow (mm/day)',xaxt='n',las = 1)
+axis(1, at = seq(1,length(date_31), by=5), labels = date_31[seq(1,length(date_31), by=5)],cex.axis=0.8, las = 2)
+legend("topright", legend = c("Streamflow","Method1","Methods2"), pch=1, col=1:3, bty='n')
+title(main = paste(colnames(Q_data_f_mm)[WS],'\n Missing values = 59'))
+
+WS = 65
+count_occur = data.frame(rle(Q_cons_gr[,WS])$values, rle(Q_cons_gr[,WS])$lengths)
+test_65 = data.frame(Q_cons_gr[,WS], with(rle(Q_cons_gr[,WS]), rep(lengths, lengths)))
+Comp_BaseF_65 = data.frame(Q_data_f_mm[,WS],Baseflow_v1[,WS],Baseflow_v2[,WS])
+Period_65 = seq((min(which(test_65[,1] == 0))-20), (max(which(test_65[,1] == 0))+20))
+date_65 = as.POSIXlt(as.Date(Q_data_f_mm[Period_65,1], "%Y-%m-%d",tz = "UTC"))
+#Removing a chunk of missing values to plot non NA values closer together
+Period_65_minus_t = Period_65[c(which(Period_65 < (min(which(test_65[,1] == 0))+5)),which(Period_65 > (max(which(test_65[,1] == 0))-5)))]
+date_65_minus_t = as.POSIXlt(as.Date(Q_data_f_mm[Period_65_minus_t,1], "%Y-%m-%d",tz = "UTC"))
+matplot(Comp_BaseF_65[Period_65_minus_t,],type=c("b"),pch=1,col=1:3, ylab='Streamflow (mm/day)',xaxt='n',las = 1)
+axis(1, at = seq(1,length(date_65_minus_t), by=5), labels = date_65_minus_t[seq(1,length(date_65_minus_t), by=5)],cex.axis=0.8,las = 2)
+legend("topright", legend = c("Streamflow","Method1","Methods2"), pch=1, col=1:3, bty='n')
+title(main = paste(colnames(Q_data_f_mm)[WS],'\n Missing values = 731'))
