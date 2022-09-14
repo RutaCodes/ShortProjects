@@ -20,10 +20,10 @@ You can find the code to do this comparison in Comparing_BflowSep.R.
 Both methods seem to be useful. Ignoring NA values (method) is more accurate when very few values are missing in the dataset. However, when dataset is missing a large chunk of data, doing baseflow saparation by groups of consecutive values seem to produce more realistic results. 
 
 Read more about EcoHydRology package here:
-https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.463.7823&rep=rep1&type=pdf
+https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.463.7823&rep=rep1&type=pdf;
 Read more about Baseflow Separation here:
-https://rdrr.io/cran/EcoHydRology/man/BaseflowSeparation.html
+https://rdrr.io/cran/EcoHydRology/man/BaseflowSeparation.html;
 
 References:
-Fuka, D. T., Walter, M. T., Archibald, J. A., Steenhuis, T. S., Easton, Z. M. (2018). A Community Modeling Foundation for Eco-Hydrology. R package version 0.4.12
-Nathan, R. J. and T. A. McMahon (1990). "Evaluation of automated techniques for base flow and recession analysis." Water Resources Research 26(7): 1465-1473.
+- Fuka, D. T., Walter, M. T., Archibald, J. A., Steenhuis, T. S., Easton, Z. M. (2018). A Community Modeling Foundation for Eco-Hydrology. R package version 0.4.12
+- Nathan, R. J. and T. A. McMahon (1990). "Evaluation of automated techniques for base flow and recession analysis." Water Resources Research 26(7): 1465-1473.
