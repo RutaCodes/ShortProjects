@@ -5,7 +5,10 @@
 #### LOADING DATA AND DEFINING VARIABLES 
 
 #Loading data array
-DATA <- read.csv(file="Q_mm_final_list_0912.csv",sep=",",header=T)
+#Enter your csv file name here
+#For example 
+file="Q_mm_final_list_0912.csv"
+DATA <- read.csv(file,sep=",",header=T)
 
 #colnames(DATA)
 
