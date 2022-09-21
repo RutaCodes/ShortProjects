@@ -1,4 +1,4 @@
-# Developing Multiple Linear Regrression Model 
+# Developing Multiple Linear Regrression Model to Predict Nutrient Concentrations
 
 This project was designed, coordinated, executed, and interpreted by me, while simultaneously training two graduate students about scientific concepts, field methods, 
 experimental design, and data driven modeling.
