@@ -1,7 +1,5 @@
 function [jdall] = juliandate(in)
 
-% in = year
-
 minyear = min(in);
 maxyear = max(in);
 
