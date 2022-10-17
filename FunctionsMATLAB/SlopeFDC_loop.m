@@ -3,7 +3,7 @@
 %Input: Simulated (qsyr) and observed (qoyr) stream flow values from one year
 %Output: Slope of flow duration curve for medium flows (33th - 66th percentile)
 
-function[SFDC] = SlopeFDC_loop(qoyr,qsyr)
+function [SFDC] = SlopeFDC_loop(qoyr,qsyr)
 
 N = length(qoyr);
 Qob_sort = sort(qoyr,'descend');
