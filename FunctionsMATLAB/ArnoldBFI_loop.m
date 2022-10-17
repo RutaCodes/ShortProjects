@@ -1,7 +1,7 @@
-#Ruta Basijokaite
+%Ruta Basijokaite
 
-#Input: Vector with stream flow values from one year
-#Output: Arnold's baseflow index
+%Input: Vector with stream flow values from one year
+%Output: Arnold's baseflow index
 
 function [ArnoldBFI] = ArnoldBFI_loop(qoyr)
 
