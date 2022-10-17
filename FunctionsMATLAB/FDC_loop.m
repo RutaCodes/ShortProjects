@@ -1,4 +1,6 @@
-%Variables
+%Ruta Basijokaite
+
+%Variables:
 %N - length of yearly flows
 %Q_sort - sorted streamflow
 %rank - ranked streamflows
@@ -16,8 +18,6 @@ Ex_p=(rank/(1+N));
 
 i1=floor((N+1)*percentiles);
 theta=((N+1)*percentiles-i1);
-
-%Q_f=(1-theta)*Q_sort(i1)+theta*Q_sort(i1+1);
 
 for b=1:length(percentiles)
     Q_f(b)=(1-theta(b))*Q_sort(i1(b))+theta(b)*Q_sort((i1(b))+1);
