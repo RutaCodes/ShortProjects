@@ -49,7 +49,7 @@ ggpairs(data.frame(corr_cor))
 #Using heatmap to visualize correlations
 
 #Setting color scheme - visualizing results with classic blue-white-red color palette that is used for correlation results
-col = colorRampPalette(c("blue","white","red"))(20)
+col = colorRampPalette(c("red","white","blue"))(20)
 heatmap(x=corr_cor, col=col, symm=TRUE)
 #where blue is positive correlation, red - negative
 
