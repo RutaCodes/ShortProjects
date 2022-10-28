@@ -60,7 +60,7 @@ library("corrplot")
 
 corrplot(corr_cor, method="color", tl.cex=0.85, tl.col = "black",cl.ratio = 0.2,cl.cex = 0.7)
 #This can be easily customized. Read more about how to customize this plot here:
-#
+#http://www.sthda.com/english/wiki/visualize-correlation-matrix-using-correlogram
 
 #------
 library(ggplot2)
