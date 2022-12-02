@@ -18,8 +18,8 @@ Created on Fri Dec  2 14:10:19 2022
 #[1,2,2,3,3,3,4,3,3,3,2,2,1] should return 4, because it appears 1 time (which is odd).
     
 # SOLUTION:
+import numpy 
 def find_it(seq):
-    import numpy 
     #finding unique values and counting them
     unique, counts = numpy.unique(seq, return_counts=True)
     return unique[numpy.where(counts%2 != 0)]
