@@ -1,1 +1,1 @@
-In this folder you will find my solutions to various challenges on codewars.com
+In this folder you can find my solutions to various challenges that can be found on codewars.com
