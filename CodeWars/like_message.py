@@ -5,6 +5,7 @@ Created on Fri Dec  2 14:03:12 2022
 
 @author: rutabasijokaite
 """
+
 # PROBLEM:
 #You probably know the "like" system from Facebook and other pages. People can "like" blog posts, 
 #pictures or other items. We want to create the text that should be displayed next to such an item.
@@ -15,6 +16,7 @@ Created on Fri Dec  2 14:03:12 2022
 #["Jacob", "Alex"]                 -->  "Jacob and Alex like this"
 #["Max", "John", "Mark"]           -->  "Max, John and Mark like this"
 #["Alex", "Jacob", "Mark", "Max"]  -->  "Alex, Jacob and 2 others like this"
+    
     
 # SOLUTION:
 def likes(names):
