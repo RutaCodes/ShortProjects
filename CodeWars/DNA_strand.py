@@ -5,7 +5,7 @@ Created on Sun Dec  4 22:45:54 2022
 
 @author: rutabasijokaite
 """
-
+# PROBLEM:
 #Deoxyribonucleic acid (DNA) is a chemical found in the nucleus of cells 
 #and carries the "instructions" for the development and functioning of living organisms.
 
@@ -18,6 +18,8 @@ Created on Sun Dec  4 22:45:54 2022
 #"ATTGC" --> "TAACG"
 #"GTAT" --> "CATA"
 
+
+# SOLUTION:
 import numpy as np
 def DNA_strand(dna):
     new_dna = np.array([*dna])
