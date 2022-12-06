@@ -10,14 +10,13 @@ Created on Fri Dec  2 14:07:30 2022
 #Usually when you buy something, you're asked whether your credit card number, phone number 
 #or answer to your most secret question is still correct. However, since someone could look over your 
 #shoulder, you don't want that shown on your screen. Instead, we mask it.
-
 #Your task is to write a function maskify, which changes all but the last four characters into '#'.
+
 
 # SOLUTION:
 def maskify(cc):
     
-    #input - cc
-    #it's a string that needs to be masked 
+    #input - cc - is a string that needs to be masked 
     #all characters except 4 last ones should become #
     
     #Get number of characters in input string
