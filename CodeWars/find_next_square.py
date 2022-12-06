@@ -19,6 +19,7 @@ Created on Fri Dec  2 14:16:58 2022
 #121 --> 144
 #625 --> 676
 #114 --> -1 since 114 is not a perfect square
+
     
 # SOLUTION:
 from math import sqrt, pow
