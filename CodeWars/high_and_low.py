@@ -20,6 +20,7 @@ Created on Fri Dec  2 14:14:49 2022
 #There will always be at least one number in the input string.
 #Output string must be two numbers separated by a single space, and highest number is first.
     
+    
 # SOLUTION:
 def high_and_low(numbers):
     chunks = numbers.split(' ')
