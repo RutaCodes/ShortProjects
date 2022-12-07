@@ -7,6 +7,7 @@ Created on Fri Dec  2 14:12:37 2022
 """
 
 # PROBLEM:
+
 #Implement a function that adds two numbers together and returns their sum in 
 #binary. The conversion can be done before, or after the addition.
 #The binary number returned should be a string.
@@ -17,5 +18,6 @@ Created on Fri Dec  2 14:12:37 2022
 
 
 # SOLUTION:
+
 def add_binary(a,b):
     return bin(a+b)[2:]
