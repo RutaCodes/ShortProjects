@@ -39,7 +39,6 @@ def is_prime(num):
         return False
     else:
         #Create a vector with sequence 2:sqrt(n)//1
-        #Don't need to check all numbers, as anything above sqrt(num) will have decimal point
         B = np.array(list(range(2,int((num**0.5)//1 +1))))
         #Divide the number by vector B and count how many times division%1 == 0
         #If it is equal to 0, then that means it only can get divided by 1 and itself - hence it's a prime number 
