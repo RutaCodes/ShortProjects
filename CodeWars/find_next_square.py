@@ -7,6 +7,7 @@ Created on Fri Dec  2 14:16:58 2022
 """
 
 # PROBLEM:
+
 #You might know some pretty large perfect squares. But what about the NEXT one?
 #Complete the findNextSquare method that finds the next integral perfect square 
 #after the one passed as a parameter. Recall that an integral perfect square is an 
@@ -22,6 +23,7 @@ Created on Fri Dec  2 14:16:58 2022
 
     
 # SOLUTION:
+
 from math import sqrt, pow
 def find_next_square(sq):
     if (sqrt(sq)).is_integer():
