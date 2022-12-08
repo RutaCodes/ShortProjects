@@ -7,6 +7,7 @@ Created on Sun Dec  4 22:47:08 2022
 """
 
 # PROBLEM:
+
 #Digital root is the recursive sum of all the digits in a number.
 #Given n, take the sum of the digits of n. If that value has more than one digit, 
 #continue reducing in this way until a single-digit number is produced. The input 
@@ -20,6 +21,7 @@ Created on Sun Dec  4 22:47:08 2022
 
 
 # SOLUTION:
+
 def digital_root(n):
     while (len(str(n))>1):
         nr_sum = 0
