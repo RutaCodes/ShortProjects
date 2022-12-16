@@ -7,6 +7,7 @@ Created on Fri Dec  2 14:14:49 2022
 """
 
 # PROBLEM:
+
 #In this little assignment you are given a string of space separated numbers, and 
 #have to return the highest and lowest number.
 
@@ -22,6 +23,7 @@ Created on Fri Dec  2 14:14:49 2022
     
     
 # SOLUTION:
+
 def high_and_low(numbers):
     chunks = numbers.split(' ')
     for i in range(0,len(chunks)):
