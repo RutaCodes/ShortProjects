@@ -7,6 +7,7 @@ Created on Tue Dec  6 15:40:00 2022
 """
 
 # PROBLEM:
+
 #Define a function that takes an integer argument and returns a logical value true 
 #or false depending on if the integer is a prime.
 
@@ -28,7 +29,8 @@ Created on Tue Dec  6 15:40:00 2022
 
 
 # SOLUTION:
-#Solution without FOR or WHILE loops
+
+#Solution using matrix factorization (without FOR or WHILE loops)
 import numpy as np
 def is_prime(num):
     #We know that if number ends with 0,2,4,5,6,8, it will not be prime number since
