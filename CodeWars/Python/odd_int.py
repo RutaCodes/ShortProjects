@@ -7,6 +7,7 @@ Created on Fri Dec  2 14:10:19 2022
 """
 
 # PROBLEM:
+
 #Given an array of integers, find the one that appears an odd number of times.
 #There will always be only one integer that appears an odd number of times.
 
@@ -19,6 +20,7 @@ Created on Fri Dec  2 14:10:19 2022
     
     
 # SOLUTION:
+
 import numpy 
 def find_it(seq):
     #finding unique values and counting them
