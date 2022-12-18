@@ -7,6 +7,7 @@ Created on Mon Dec  5 19:11:15 2022
 """
 
 # PROBLEM:
+
 #Move the first letter of each word to the end of it, then add "ay" to the 
 #end of the word. Leave punctuation marks untouched.
 
@@ -16,6 +17,7 @@ Created on Mon Dec  5 19:11:15 2022
 
 
 # SOLUTION:
+
 import string
 def pig_it(text):
     return ' '.join([(i if i in string.punctuation else i[1:] + i[0] + 'ay')  for i in text.split(' ')])
