@@ -24,4 +24,3 @@ def make_readable(sec):
     MM = (sec - (HH * 60 * 60)) // 60
     SS = sec - HH * 60 * 60 - MM * 60
     return "%s:%s:%s" % (str(HH).zfill(2), str(MM).zfill(2), str(SS).zfill(2))
-
