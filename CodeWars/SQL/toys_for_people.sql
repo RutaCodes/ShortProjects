@@ -14,6 +14,7 @@
 
 --You should return all people fields as well as the toy count as "toy_count".
 
+
 --# SOLUTION
 
 SELECT p.id, p.name, COUNT(*) toy_count
