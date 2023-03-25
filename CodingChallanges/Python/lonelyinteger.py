@@ -35,12 +35,6 @@ Created on Sat Mar 25 16:29:12 2023
 
 # SOLUTION
 
-import numpy as np
-def lonelyinteger(a):
-    count = np.array(np.unique(np.array(a), return_counts=True))
-    return print(count[0,np.where(count[1,:]==min(count[1,:]))[0]])
-
-
 import os
 
 def lonelyinteger(a):
