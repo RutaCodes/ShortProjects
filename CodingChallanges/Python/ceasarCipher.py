@@ -61,6 +61,22 @@ import sys
 
 def caesarCipher(s, k):
     abc = 'abcdefghijklmnopqrstuvwxyz'
+    abc_cipher = abc[(k%26):] + abc[:(k%26)]
+    new_msg = ''
+    for i in s:
+        if i in abc:
+            new_msg += abc_cipher[abc.index(i)]
+        elif i in abc.upper():
+            new_msg += abc_cipher[abc.index(i.lower())].upper()
+        else:
+            new_msg += i
+    return new_msg
+
+'''
+# OR
+
+def caesarCipher(s, k):
+    abc = 'abcdefghijklmnopqrstuvwxyz'
     new_msg = ''
     for i in s:
         if i in abc:
@@ -70,7 +86,7 @@ def caesarCipher(s, k):
         else:
             new_msg += i
     return new_msg
-    
+'''   
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
