@@ -86,23 +86,3 @@ if __name__ == '__main__':
     fptr.write(str(result) + '\n')
 
     fptr.close()
-
-
-
-'''
-n = 5
-p = 3
-
-start = [0]
-#nr = int((n-1)/2)
-for i in range(1,(int((n-1)/2))+1):
-    val = 2*[i]
-    start.extend(val)
-
-#If number of pages is even - last page will be printed on its own
-if n%2 == 0:
-    start.append(max(start)+1)
-
-front = start[p-1]
-back = max(start)-start[p-1]
-min(front,back)
