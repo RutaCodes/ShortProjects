@@ -7,7 +7,6 @@ Created on Fri Mar 31 22:07:17 2023
 """
 
 # From HackerRank
-
 '''
 # PROBLEM
 
@@ -53,9 +52,6 @@ import os
 
 def gridChallenge(grid):
     #Alphabetizing rows
-    
-   # grid = [(grid[i] = ''.join(sorted([*grid[i]]))) for i in range(len(grid))]
-    
     for i in range(len(grid)):
         grid[i] = ''.join(sorted([*grid[i]])) 
     #Checking columns
@@ -66,7 +62,6 @@ def gridChallenge(grid):
             vl.append(grid[j][i])
         col.append(vl == sorted(vl))
     
-    #col = [[grid[0][i], grid[1][i],grid[2][i]] == sorted([grid[0][i], grid[1][i],grid[2][i]]) for i in range(len(grid))]
     if all(col):
         return 'YES'
     else:
