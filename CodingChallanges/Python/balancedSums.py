@@ -83,28 +83,4 @@ def balancedSums(arr):
             break
     return 'NO'
 
-
-
-# Nonsense that doesnt work
-
-def balancedSums(arr):
-    total = sum(arr)
-    sum_L = 0
-    sum_R = 0
-    if len(arr) == 1:
-        return 'YES'
-    elif len(arr) == 2:
-        return 'NO'
-    else:
-        for i in range(1,len(arr)-1):
-        #sum_L = sum(arr[i-1], sum_L)
-            sum_L = sum_L + arr[i-1]
-            sum_R = total - sum_L - arr[i]
-            if sum_L == sum_R :
-        #if (sum(arr[:i]) == sum(arr[(i+1):])):
-                return 'YES'
-                break
-        if i == (len(arr)-1):
-            return 'NO'
-            
-    #return 'NO'
+'''
