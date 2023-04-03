@@ -58,6 +58,7 @@ if __name__ == '__main__':
     
 '''
 # There is a pattern when n is square
+
 def counterGame(n):
     if ((n & (n-1) == 0) and n != 0):
         if (int(n**0.5) % 2) == 0:
@@ -66,9 +67,6 @@ def counterGame(n):
             return 'Luise'
     else:
         return 'Not square'
-
-
-
 
 
 # Works, but takes too long
@@ -89,33 +87,5 @@ def counterGame(n):
                     break
             cnt += 1
         return 'Richard' if cnt % 2 == 0 else 'Luise'
-  
-    
-
-
-
-# Does not take into account when n is not square and it becomes one after subtraction 
-def counterGame(n):
-    if ((n & (n-1) == 0) and n != 0):
-        if (int(n**0.5) % 2) == 0:
-            return 'Richard'
-        else:
-            return 'Luise'
-    else:
-        cnt = 0
-        while n > 1:
-            n -= 2**int(math.log(n,2))
-            cnt += 1
-        return 'Richard' if cnt % 2 == 0 else 'Luise'
-
-    
-  
-    
-n=7
-for i in range(1,int(n/2)+1):
-    n1 = n - i
-    if ((n1 & (n1-1) == 0) and n1 != 0):
-        n = n - n1
-        break
     
 '''
