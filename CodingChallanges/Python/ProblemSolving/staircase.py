@@ -12,11 +12,3 @@ Created on Thu Apr  6 23:17:31 2023
 def staircase(n):
     for i in range(1,n+1):
         print(f"{' '*(n - i) + '#'*i}")
-
-def staircase(n):
-    return [[' '*(n - i) + '#'*i] for i in range(1,n+1)]
-
-# Others:
-def staircase(n):
-    for i in range(1,n+1):
-        print(f"{'#'*i:>{n}}")
