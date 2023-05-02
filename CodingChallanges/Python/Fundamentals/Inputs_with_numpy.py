@@ -46,3 +46,24 @@ P = numpy.array(input().split(), float)
 x = int(input())
 
 print(numpy.polyval(P, x))
+
+
+
+'''
+You are given a square matrix A with dimensions N x N. Your task is to find the determinant. 
+Note: Round the answer to 2 places after the decimal.
+
+Input format:
+The first line contains the integer N.
+The next N lines contains the N space separated elements of array A.
+
+Print the determinants of A.
+
+'''
+
+import numpy
+
+N = int(input())
+A = numpy.array([input().split() for _ in range(N)], float)
+
+print(round(numpy.linalg.det(A), 2))
