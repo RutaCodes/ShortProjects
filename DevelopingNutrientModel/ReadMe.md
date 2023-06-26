@@ -1,4 +1,4 @@
-# Developing Multiple Linear Regrression Model to Predict Nutrient Concentrations
+# Developing Multiple Linear Regression Model to Predict Nutrient Concentrations
 
 The goal of this project was to analyze how water quality differs across sites in California and Neveda. 
 
