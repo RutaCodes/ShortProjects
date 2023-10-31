@@ -237,7 +237,7 @@ bxp +
        caption = get_pwc_label(pairwise_t2))
 
 
-### Investigating the effect of EE_average at every level of Group
+### Investigating the effect of Group at every level of EE_average
 
 # Analyzing simple main effects
 # Group data by EE_average and fit anova
