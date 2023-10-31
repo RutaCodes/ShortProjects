@@ -1,6 +1,6 @@
 # Project Scope
 
-There are 3 groups (control, active neural mobilizations, and passive neural mobilizations). The groups were then split into those individuals who had an elbow extension "EE" range of motion below and above the entire sample sizes average. A pre-grip and post-grip strength sample was taken for all subjects. 
+There are 3 groups (control, active neural mobilizations, and passive neural mobilizations). The groups were then further split into those individuals who had an elbow extension "EE" range of motion below and above the entire sample sizes average. A pre-grip and post-grip strength sample was taken for all subjects. 
 
 Group A (control)
 - A1 
@@ -14,7 +14,7 @@ Group C (passive)
 - C1
 - C2
   
-where "1" is the group with "tighter" elbows and "2" is the group with "more flexible" elbows.
+where "1" is the group with below average elbow extension range of motion and "2" is the group with above average elbow extension range of motion.
 
 Two main questions of this study were:
 - Is there a difference when comparing the passive and/or active neural mobs groups to the control?
